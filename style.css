@@ -1,0 +1,98 @@
+body {
+    font-family: Geneva ,Roboto, Arial;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: white;
+}
+ 
+header,
+.education-section,
+.about-me-section,
+.project-section,
+.languages-section,
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: rgba(234, 234, 234,1);
+    color: black;
+    margin: 5vw auto;
+    padding: 2em;
+    min-width: 500px;
+    max-width: 50vw;
+}
+
+header {
+    align-items: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin:0;
+} 
+
+
+#in-icon,
+#github-icon,
+#mail-icon {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: rgb(35, 192, 192);
+}
+
+#github-icon,
+#mail-icon {
+    margin-left: 1em;
+}
+
+#gmail {
+    margin-top: 1.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#project1,
+#project2,
+#project3 {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5px;
+}
+
+#project1,
+#project2 {
+    margin-right: 4px;
+}
+
+#ed-title,
+#about-title,
+#project-title,
+#skills-title {
+    margin-top: 0;
+}
+
+#about-paragraph {
+    margin: 0;
+}
+
+.skills-section li{
+    padding-bottom: 10px;
+}
+
+#lang-1 {
+    margin-bottom: 0; 
+}
+
+#ed-degree {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 16px;
+    padding-bottom: 10px;
+}
+
+#ed-school {
+    margin: 0;
+    padding-bottom: 15px;
+}

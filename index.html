@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tugrul Durdu</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="portrait.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Tugrul Durdu</h1>
+            <h2>Software Design and Development</h2>
+            <div class="profiles">
+                <a href="https://www.linkedin.com/in/tugrul-durdu-5a0963159" target="_blank"><i id="in-icon" class="fa-brands fa-linkedin-in"></i></a>
+                <i onclick="toggleMail()" id="mail-icon" class="fa-solid fa-envelope"></i>
+                <a href="https://github.com/tugrule" target="_blank"><i id="github-icon" class="fa-brands fa-github"></i></a>
+            </div>
+            <div id="gmail">
+                tugruledurdu@gmail.com
+            </div>
+        </header>
+        
+        <section class="about-me-section">
+            <h3 id="about-title">About me</h3>
+            <p>
+                I'm a recent Computer Science and Engineering graduate from the University of Connecticut. 
+                My studies were concentrated on software design and development. 
+                I learned about data structures, algorithms, databases, security and a plethora of other topics during my time in school. 
+            </p>
+            <p>
+                Web development has developed into a passion of mine lately. 
+                I love designing webpages and browsing the web for inspiration. 
+                I enjoy learning new technologies and putting them to use in my free time. 
+            </p>
+            <p>
+                I would describe myself as a passionate, problem solver, organized and hard working person. 
+                Some of my other insterests are basketball, swimming, film, comics and video games. 
+            </p>
+        </section>
+
+        <section class="education-section">
+            <h3 id="ed-title">Education</h3>
+            <div class="ed-history">
+                <h3 id="ed-degree">Bachelor's Degree in Computer Science and Engineering</h3>
+                <p id="ed-school">University of Connecticut</p>
+                <small id="ed-years">2018 - 2022</small>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h3 id="project-title">Projects</h3>
+            <div class="projects">
+                <div id="project1">
+                <h4>Excel Report Automation</h4>
+                    <p>
+                        Worked with a client to build an application that automates the generation of Excel Reports. 
+                        The program analyzes thousands of company products and various data over numerous Excel worksheets. 
+                        The results are calculated and separated into different Excel worksheets as an output. 
+                        The program saves the client from weeks of extra work.
+                    </p>
+                    <p>
+                        Skills used: Python, Pandas data analysis library, Tkinter GUI, Microsoft Excel.
+                    </p>
+                </div>
+                <div id="project2">
+                    <h4>Information Patient System</h4>
+                    <p>
+                        Developed a hospital application for storing and manipulating patient profiles. 
+                        Used Swing GUI for user inputs, menu options and data retrieval. 
+                    </p>
+                    <p>
+                        Skills used: Java, Swing GUI, JSON.
+                    </p>
+                </div>
+                <div id="project3">
+                    <h4>Company Database</h4> 
+                    <p>
+                        Developed a command line application for company database queries. 
+                        Initial database implemented using MySQL.
+                        Menu for navigating options that trigger SQL commands and manipulate the database. 
+                        SQL commands use locking mechanism that support concurrent transactions.
+                    </p>
+                    <p>
+                        Skills used: Python, MySQL, MySQL Connector.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class='skills-section'>
+            <h3 id="skills-title">Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>      
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>SML</li>
+                <li>Prolog</li>
+                <li>Scheme</li>
+                <li>MySQL</li>
+                <li>JSON</li>
+            </ul>
+        </section>
+
+        <section class="languages-section">
+            <h3 id="languages-title">Languages</h3>
+            <p id="lang-1">
+                English
+            </p>
+            <p>
+                Turkish
+            </p>
+        </section>
+
+        
+        <!--
+        <form class="contact-form" method="post" action="#">
+            <input type="text" name="name" placeholder="Full name" >
+            <input type="email" name="email" placeholder="Your email" >
+            <input type="text" name="subject" placeholder="Subject" >
+            <textarea name="message" placeholder="Message"></textarea>
+            <input type="submit" name="subject" >
+        </form>-->
+    </body>
+</html>
